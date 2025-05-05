@@ -49,7 +49,7 @@ $DoImportPSSession = $false
 [string]$PSRemotingServer = "demo01"
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\SCCM - Add User to Collection"
 [string]$LogfileName = "Add User to Collection"
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
 
 $CMSiteCode = "A2M"
 $SiteServer = "demo01"
@@ -74,7 +74,7 @@ $SMTPSender = "SelfService@au2mator.com"
 $SMTPPort = "587"
 
 # Stored Credentials
-# See: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
+# See: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
 $SMTPCredential_method = "Stored" #Stored, Manual
 $SMTPcredential_File = "SMTPCreds.xml"
 $SMTPUser = ""
